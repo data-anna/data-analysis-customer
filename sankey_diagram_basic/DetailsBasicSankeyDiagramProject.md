@@ -224,17 +224,17 @@ ORDER BY fromEvent
 You can use custom visual available at marketplace called 'Sankey 2.0.1'.
 In this project PowerBI report already [available](https://github.com/data-anna/data-analysis-customer/blob/master/sankey_diagram_basic/SankeyDiagram.GitCustomerFlow.pbix) so you can download and use it.
 
-![Dashboard](https://github.com/data-anna/data-analysis-customer/blob/master/sankey_diagram_basic/images/dashboard_unfiltered.PNG)
+![Dashboard](images/dashboard_unfiltered.PNG)
 
 How to derive value?
 
 First example below shows that there are some customers who, according to our research, after Registration created a repository right away. Therefore, we should question ourselves: is this is a real picture and we had issues in the customer flow? Or maybe the event of email verification wasn't populated in DB.CustomerEvents in a correct way.
 
-![Example1](https://github.com/data-anna/data-analysis-customer/blob/master/sankey_diagram_basic/images/dashboard_example1.PNG)
+![Example1](images/dashboard_example1.PNG)
 
 Second example (below) shows that 6205 customers who verified their email somehow present in the DB.Commits table and made a commit. This looks like logical mistake hence it is not possible to make a commit without creating a repository, therefore we should question ourselves about the data quality in the DB.Commits table.
 
-![Example2](https://github.com/data-anna/data-analysis-customer/blob/master/sankey_diagram_basic/images/dashboard_example2.PNG)
+![Example2](images/dashboard_example2.PNG)
 
 # Next Steps
 
@@ -242,7 +242,7 @@ There are few options on how you can create such types of vizualizations:
 
 1. Using connection to existing DataWarehouse via visualization tool (ex. PowerBI);
 2. Using Python for both retrieving the data and visualization (see an example using plotly library here);
-3. Using library Data-Driven Documents (d3.js) if you are familiar with JavaScript (tutorial [here](https://davidwalsh.name/learning-d3)).
+3. Using library Data-Driven Documents (d3.js) if you are familiar with JavaScript (good tutorial [here](https://davidwalsh.name/learning-d3)).
 
 # Question Yourself
 

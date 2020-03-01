@@ -127,17 +127,17 @@ Full MS SQL query example using CTE is here: [link](https://github.com/data-anna
 You can use custom visual available at marketplace called 'Sankey 2.0.1'.
 In this project PowerBI report already [available](https://github.com/data-anna/data-analysis-customer/blob/master/sankey_diagram_basic/SankeyDiagram.GitCustomerFlow.pbix) for you.
 
-![Dashboard](https://github.com/data-anna/data-analysis-customer/blob/master/sankey_diagram_basic/images/dashboard_unfiltered.PNG)
+![Dashboard](sankey_diagram_basic/images/dashboard_unfiltered.PNG)
 
 How to derive value?
 
 First example below shows that there are some customers who, according to our research, after Registration created a repository right away. Therefore, we should question ourselves: is this is a real picture and we had issues in the customer flow? Or maybe the event of email verification wasn't populated in DB.CustomerEvents in a correct way.
 
-![Example1](https://github.com/data-anna/data-analysis-customer/blob/master/sankey_diagram_basic/images/dashboard_example1.PNG)
+![Example1](sankey_diagram_basic/images/dashboard_example1.PNG)
 
 Second example (below) shows that 6205 customers who verified their email somehow present in the DB.Commits table and made a commit. This looks like logical mistake hence it is not possible to make a commit without creating a repository, therefore we should question ourselves about the data quality in the DB.Commits table.
 
-![Example2](https://github.com/data-anna/data-analysis-customer/blob/master/sankey_diagram_basic/images/dashboard_example2.PNG)
+![Example2](sankey_diagram_basic/images/dashboard_example2.PNG)
 
 # Next Steps
 
