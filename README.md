@@ -6,7 +6,9 @@ All materials presented in this repository are created for learning purposes onl
 In order to analyze customer journey and identify not effective customer flows as an example Git SaaS product generic flow will be used.
 
 Method: Sankey Diagram. 
+
 [Approach #1](https://github.com/data-anna/data-analysis-customer/tree/master/sankey_diagram_basic): MS SQL for extracting the data, PowerBI for visualization.
+
 [Approach #2](to be added): visualization using plotly library in Python.
 
 
@@ -137,7 +139,7 @@ Second example (below) shows that 6205 customers who verified their email someho
 
 ![Example2](https://github.com/data-anna/data-analysis-customer/blob/master/sankey_diagram_basic/images/dashboard_example2.PNG)
 
-# Next steps
+# Next Steps
 
 There are few options on how you can create such types of vizualizations:
 
@@ -145,11 +147,11 @@ There are few options on how you can create such types of vizualizations:
 2. Using Python for both retrieving the data and visualization (see an example using plotly library here);
 3. Using library Data-Driven Documents (d3.js) if you are familiar with JavaScript (tutorial [here](https://davidwalsh.name/learning-d3)).
 
-# Question yourself
+# Question Yourself
 
 How would you design a Data Warehouse in order to enable a Report user to see the Customer Journey for all customers and at the same time to be able to filter exact customerId and see full journey of only 1 customer?
 
-# Useful links
+# Useful Links
 
 [https://github.com/microsoft/powerbi-visuals-sankey](https://github.com/microsoft/powerbi-visuals-sankey)
 
